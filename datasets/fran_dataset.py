@@ -37,7 +37,7 @@ class FRANDataset(Dataset):
         self.image_pairs = generate_image_pairs(image_meta)
         self.image_ages_dict = generate_age_image_dict(image_meta)
         self.transforms = transforms
-        self.DATA_DIR = data_dir
+        self.data_dir = data_dir
 
     def __len__(self):
         return len(self.image_pairs)
@@ -45,8 +45,8 @@ class FRANDataset(Dataset):
     def __getitem__(self, index):
         image_pair = self.image_pairs[index]
 
-        input_image = np.array(Image.open(self.data_dir+image_pair[0]).convert('RGB'))
-        target_image = np.array(Image.open(self.data_dir+image_pair[1]).convert('RGB'))
+        input_image = np.array(Image.open(self.data_dir/image_pair[0]).convert('RGB'))
+        target_image = np.array(Image.open(self.data_dir/image_pair[1]).convert('RGB'))
 
         normalized_input_image_transformed = self.transforms(image=input_image)
         # Basic normalization
