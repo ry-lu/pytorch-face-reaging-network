@@ -59,6 +59,7 @@ Epoch 0:   0%|                                                                  
 
 ## Showcase
 Applying the model + naive crop and masking.
+Model was trained on a single V100 for 6 hours in Google Colab.
 
 [Hugging Face Spaces](https://huggingface.co/spaces/penpen/age-transformation)
 
