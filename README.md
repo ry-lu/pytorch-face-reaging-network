@@ -2,8 +2,8 @@
 
 <table>
   <tr>
-    <td><img src="example_images/input_example_img.png" alt="Image Alt Text" style="width: 400px;"/></td>
-    <td><img src="example_images/output_example_img.png" alt="Image Alt Text" style="width: 400px;"/></td>
+    <td><img src="example-images/input_example_img.png" alt="Image Alt Text" style="width: 400px;"/></td>
+    <td><img src="example-images/output_example_img.png" alt="Image Alt Text" style="width: 400px;"/></td>
   </tr>
 </table>
 
