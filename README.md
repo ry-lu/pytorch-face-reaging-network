@@ -24,7 +24,7 @@ Python 3.12.2
 For full training, download all 2000 subjects from the dataset link.
 
 ## Training
-To train a new model
+See Colab Notebook or train a new model by
 ```console
 > python train.py -h
 usage: train.py [-h] [--data_dir DATA_DIR]
@@ -43,7 +43,6 @@ GPU available: True (mps), used: True
 TPU available: False, using: 0 TPU cores
 IPU available: False, using: 0 IPUs
 HPU available: False, using: 0 HPUs
-Missing logger folder: /Users/ryanlu/Downloads/Projects/pytorch-face-reaging-network/lightning_logs
 
   | Name          | Type                  | Params
 --------------------------------------------------------
